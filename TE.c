@@ -11,7 +11,7 @@ void inisialisasiEditor(TextEditor *ed) {
 void tampilkanEditor(TextEditor *ed) {
     system("cls"); // Gunakan "clear" jika di Linux
     printf("=== C-CLI TEXT EDITOR ===\n");
-    printf("Ketik 'SAVE'untuk  file git.\n");
+    printf("Ketik git.\n");
     printf("--------------------------------------------------\n");
     
     for (i = 0; i < ed->jumlah_baris; i++) {
